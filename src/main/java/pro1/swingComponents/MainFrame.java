@@ -1,5 +1,9 @@
 package pro1.swingComponents;
 
+import org.w3c.dom.Text;
+import pro1.drawingModel.Drawable;
+import pro1.utils.ColorUtils;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -31,10 +35,10 @@ public class MainFrame extends JFrame {
         });
     }
 
-//    private Drawable example(int x, int y) {
-//        var color = ColorUtils.randomColor();
-//        var d1 = new Rectangle(0, 0, 150, 250, color);
-//        var d2 = new Text(0, 0, color);
-//        return new Group(new Drawable[]{d1, d2}, x, y, 10, 1, 1);
-//    }
+    private Drawable example(int x, int y) {
+        var color = ColorUtils.randomColor();
+        var d1 = new Rectangle(0, 0, 150, 250, color);
+        var d2 = new Text(0, 0, color);
+        return new Group(new Drawable[]{d1, d2}, x, y, 10, 1, 1);
+    }
 }
