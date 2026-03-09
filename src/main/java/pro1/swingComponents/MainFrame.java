@@ -1,7 +1,9 @@
 package pro1.swingComponents;
 
-import org.w3c.dom.Text;
 import pro1.drawingModel.Drawable;
+import pro1.drawingModel.Group;
+import pro1.drawingModel.Rectangle;
+import pro1.drawingModel.Text;
 import pro1.utils.ColorUtils;
 
 import javax.swing.*;
